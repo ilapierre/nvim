@@ -68,3 +68,11 @@ require('cord').setup {
   --   ['Cargo.toml'] = 'crates',
   -- },
 }
+
+require('which-key').register({
+  g = {
+    f = {
+      d = { ":PytrizeJumpFixture<CR>", "Go To Fixture Definition - PytrizeJumpFixture" }
+    }
+  }
+})
