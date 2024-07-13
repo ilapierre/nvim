@@ -1,4 +1,4 @@
 return {
   "AckslD/nvim-pytrize.lua",
-  enabled = true
+  config = 'require("pytrize").setup()',
 }
